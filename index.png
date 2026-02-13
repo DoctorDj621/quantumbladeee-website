@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>QuantumBladeee YouTube Channel</title>
+<style>
+body {
+margin: 0;
+font-family: Arial, sans-serif;
+background-color: #0B162A;
+color: #FFFFFF;
+text-align: center;
+}
+
+header {
+background-color: #C83803;
+padding: 20px;
+font-size: 32px;
+font-weight: bold;
+border-bottom: 4px solid #FFFFFF;
+}
+
+.logo {
+width: 120px;
+margin-top: 15px;
+}
+
+.container {
+padding: 40px;
+}
+
+h1 {
+color: #C83803;
+font-size: 36px;
+}
+
+.subscribe-btn {
+background-color: #C83803;
+color: white;
+padding: 15px 35px;
+border: 2px solid white;
+font-size: 20px;
+border-radius: 10px;
+cursor: pointer;
+margin-top: 20px;
+}
+
+.subscribe-btn:hover {
+background-color: white;
+color: #0B162A;
+}
+
+.video-box {
+background-color: #13294B;
+padding: 25px;
+margin: 30px auto;
+width: 350px;
+border-radius: 12px;
+border: 2px solid #C83803;
+}
+
+footer {
+margin-top: 50px;
+padding: 20px;
+background-color: #13294B;
+border-top: 3px solid #C83803;
+}
+</style>
+</head>
+<body>
+
+<header>
+🐻⬇️ QuantumBladeee YouTube Channel
+</header>
+
+<!-- YOUR LOGO HERE -->
+<img src="logo.png" class="logo">
+
+<div class="container">
+
+<h1>Welcome to my Channel</h1>
+<p>Subscribe and watch my latest YouTube Shorts!</p>
+
+<button class="subscribe-btn" onclick="subscribe()">SUBSCRIBE</button>
+
+<div class="video-box">
+<h3>Visit my YouTube Channel</h3>
+<a href="https://www.youtube.com/@QuantumBladeee" target="_blank">
+Click here to watch my videos
+</a>
+</div>
+
+</div>
+
+<footer>
+🐻 Chicago Bears Themed Website | © 2026 QuantumBladeee
+</footer>
+
+<script>
+function subscribe() {
+window.open("https://www.youtube.com/@QuantumBladeee", "_blank");
+}
+</script>
+
+</body>
+</html>
